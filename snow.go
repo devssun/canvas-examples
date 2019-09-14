@@ -22,7 +22,7 @@ func main() {
 
 	particles := [n]SnowParticle{}
 	c.Setup(func(ctx *canvas.Context) {
-		for i := 0; i < n; i += 1 {
+		for i := 0; i < n; i++ {
 			particles[i] = randomSnowParticle()
 		}
 	})
